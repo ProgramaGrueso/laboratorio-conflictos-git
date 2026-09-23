@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head><title>Login Seguro</title></head>
+<head><title>Login Seguro - Sistema de Ventas</title></head>
 <body>
-    <h2>Acceso Corporativo Seguro</h2>
+    <h2>Acceso al Sistema Corporativo</h2>
     <form id="loginForm">
         <label>Usuario: <input type="text" name="user" required pattern="[A-Za-z0-9_]{4,15}"></label>
-        <label>Clave: <input type="password" name="password" minlength="10" required></label>
-        <!-- Validación: autenticación reforzada MFA y tokens JWT -->
-        <button type="submit">Autenticar con Token</button>
+        <label>Clave: <input type="password" name="password" minlength="8" required></label>
+        <!-- Validación: autenticación integrada con usuario, clave y token -->
+        <button type="submit">Ingresar al Sistema</button>
     </form>
 </body>
 </html>
